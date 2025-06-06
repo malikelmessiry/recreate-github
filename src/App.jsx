@@ -2,6 +2,8 @@ import './App.css';
 import NavigationBar from './components/NavigationBar';
 import SearchBar from './components/SearchBar';
 import LoginControls from './components/LoginControls';
+import HeroSection from './components/HeroSection';
+import NewsletterForm from './components/NewsletterForm';
 
 function App() {
 
@@ -12,6 +14,10 @@ function App() {
         <SearchBar></SearchBar>
         <LoginControls></LoginControls>
       </header>
+      <main>
+        <HeroSection></HeroSection>
+        <NewsletterForm></NewsletterForm>
+      </main>
     </div>
   );
 };

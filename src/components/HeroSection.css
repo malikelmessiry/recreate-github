@@ -1,0 +1,15 @@
+.hero-section {
+    display: block;
+    /* border: 1px solid white; */
+    width: 50%;
+    
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    color: rgba(223, 220, 220, 0.5);
+    font-size: 1.1rem;
+}
