@@ -4,6 +4,7 @@ import SearchBar from './components/SearchBar';
 import LoginControls from './components/LoginControls';
 import HeroSection from './components/HeroSection';
 import NewsletterForm from './components/NewsletterForm';
+import StatsBar from './components/StatsBar';
 
 function App() {
 
@@ -18,6 +19,9 @@ function App() {
         <HeroSection></HeroSection>
         <NewsletterForm></NewsletterForm>
       </main>
+      <footer>
+        <StatsBar></StatsBar>
+      </footer>
     </div>
   );
 };
