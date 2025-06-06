@@ -1,0 +1,13 @@
+section {
+    color: white;
+    display: flex;
+}
+
+.sign-up {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+section p {
+    padding: 5px;
+}

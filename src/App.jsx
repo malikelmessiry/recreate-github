@@ -1,15 +1,17 @@
 import './App.css';
 import NavigationBar from './components/NavigationBar';
 import SearchBar from './components/SearchBar';
+import LoginControls from './components/LoginControls';
 
 function App() {
 
   return (
     <div className="app-background">
-      <main>
+      <header className="app-header">
         <NavigationBar></NavigationBar>
-        {/* <SearchBar></SearchBar> this is in NavigationBar.jsx*/}
-      </main>
+        <SearchBar></SearchBar>
+        <LoginControls></LoginControls>
+      </header>
     </div>
   );
 };
