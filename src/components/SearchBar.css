@@ -1,0 +1,18 @@
+input {
+    background-color: rgb(190, 185, 185);
+    color: rgb(198, 191, 191);
+    border-radius: 5px;
+    border-width: 0;
+    background: rgba(62, 60, 60, 0.5);
+    border: 1px solid grey;
+    height: 30px;
+    padding: 5px;
+}
+
+
+
+
+
+.placeholder {
+    color: rgb(198, 191, 191);
+}
