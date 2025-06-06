@@ -8,7 +8,7 @@ function App() {
     <div className="app-background">
       <main>
         <NavigationBar></NavigationBar>
-        <SearchBar></SearchBar>
+        {/* <SearchBar></SearchBar> this is in NavigationBar.jsx*/}
       </main>
     </div>
   );
