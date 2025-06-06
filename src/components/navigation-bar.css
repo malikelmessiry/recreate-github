@@ -7,13 +7,18 @@
     -webkit-transform: rotate(45deg);
 }
 
+.logo {
+    height: 25px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
 * {
-    color: black;
+    color: white;
 }
 
 nav {
-    background-color: white;
     padding: 1rem;
+    display: inline;
 }
 
 ul {
@@ -22,3 +27,4 @@ ul {
     gap: 1rem;
     padding: 0;
 }
+
